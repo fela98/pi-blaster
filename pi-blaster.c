@@ -81,8 +81,8 @@ static uint8_t pin2gpio[8];
 // will use too much memory bandwidth.  10us is a good value, though you
 // might be ok setting it as low as 2us.
 
-#define CYCLE_TIME_US	10000
-#define SAMPLE_US		10
+#define CYCLE_TIME_US		20000
+#define SAMPLE_US		2
 #define NUM_SAMPLES		(CYCLE_TIME_US/SAMPLE_US)
 #define NUM_CBS			(NUM_SAMPLES*2)
 
